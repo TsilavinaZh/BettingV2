@@ -460,7 +460,7 @@ button:hover {
   max-width: 450px;
   width: 90%;
   color: var(--white);
-  background-image: url('./assets/Template.PNG');
+  /* background-image: url('./assets/Template.PNG'); */
   background-repeat: no-repeat;
   background-size: 100%;
   height: 90%;
@@ -488,26 +488,48 @@ button:hover {
 }
 
 .odds {
-  padding: 20px;
-  text-align: end;
+  padding: 30px;
+  display: flex;
+  margin-top: -5px;
+  justify-content: space-between;
+  /* text-align: end; */
+  background-color: var(--green);
+  
 }
 
+.strongs{
+font-size: 20px;  
+}
+
+.odds span{
+  padding: 6px;
+  border: 1px solid var(--white);
+  background-color: var(--white);
+  color: var(--green);
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+
 .Over {
-  padding-left: 10px;
+  padding-left: 30px;
   margin-top: -20px;
 }
 
 
 
 .Team {
-  padding-left: 10px;
+  padding-right: -100px;
+  padding:10px 10px 10px 30px;
   margin-top: -10px;
+  background-color: var(--green);
 }
 
 .Money {
   display: flex;
   justify-content: space-around;
-  margin-left: -70px;
+  background-color: var(--green);
+
 }
 
 .Money .paidmoney {
@@ -527,12 +549,41 @@ button:hover {
 .MenuID {
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  padding: 20px 30px 0px 30px;
+  background-color: var(--green);
+
+}
+
+.eventP{
+  color: var(--littleGrey);
+  text-transform: uppercase;
 }
 
 .Score {
   padding-top: 20px;
-  padding-left: 35px;
+  padding-left: 10px;
+  /* padding-right: 5px; */
+  background-color: var(--green);
+  border-radius: 0px 0px 0px 10px;
+}
+
+.eventOdd1 img{
+  width: 20px;
+  border-radius: 10px;
+}
+
+#eventPlayer{
+  width: 95%;
+}
+.BodyScore{
+  background-color: var(--grey);
+  padding:10px ;
+  margin-bottom:10px ;
+  border-radius: 0px 0px 0px 10px;
+  padding-bottom: 30px;
+  
+
+
 }
 
 .bar1 {
@@ -556,6 +607,7 @@ input{
   text-align: end;
   padding-right: 10px;
   color: var(--green);
+  margin-top: -20px;
 }
 
 .sidebar{
