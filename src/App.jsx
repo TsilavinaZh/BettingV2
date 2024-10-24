@@ -131,6 +131,7 @@ const Formulaire = () => {
       {isModalVisible && (
         <div className='modal'>
           <div className='modal-content'>
+            <br /><br />
            {/* <button onClick={handleModalClose}>x</button> */}
 
             {/* <img src={Image} alt="" style={{ width: '100%', height: 'auto' }} /> */}
