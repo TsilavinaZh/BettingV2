@@ -518,6 +518,10 @@ button:hover {
   .Money .paidmoney {
     font-size: 40px;
   }
+  .Score {
+    padding-top: 0;
+  }
+  
 }
 
 .MenuID {
@@ -527,7 +531,7 @@ button:hover {
 }
 
 .Score {
-/*   padding-top: 28px; */
+  padding-top: 28px;
   padding-left: 35px;
 }
 
